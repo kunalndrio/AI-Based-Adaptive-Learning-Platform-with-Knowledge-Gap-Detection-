@@ -29,7 +29,7 @@ export default function ManageCourses() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search courses…"
-            className="w-full pl-9 pr-3 py-2.5 rounded-xl border border-outline-variant bg-surface text-body-md focus:outline-none focus:ring-2 focus:ring-primary"
+            className="w-full pl-39 pr-3 py-2.5 rounded-xl border border-outline-variant bg-surface text-body-md focus:outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
         <button
